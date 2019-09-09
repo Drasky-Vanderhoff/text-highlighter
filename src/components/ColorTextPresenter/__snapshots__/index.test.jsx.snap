@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorTextPresenter Component should render the color text items in the list 1`] = `
+<blockquote
+  className="color-text-presenter"
+>
+  <span>
+    <mark
+      style={
+        Object {
+          "backgroundColor": "red",
+        }
+      }
+    >
+      lorem
+    </mark>
+    <br />
+  </span>
+  <span>
+    <mark
+      style={
+        Object {
+          "backgroundColor": "blue",
+        }
+      }
+    >
+      ip
+    </mark>
+    <br />
+  </span>
+  <span>
+    <mark
+      style={
+        Object {
+          "backgroundColor": "blue",
+        }
+      }
+    >
+      sum
+    </mark>
+    <br />
+  </span>
+  <span>
+    <mark
+      style={
+        Object {
+          "backgroundColor": "yellow",
+        }
+      }
+    >
+      more text just because
+    </mark>
+    <br />
+  </span>
+</blockquote>
+`;
+
+exports[`ColorTextPresenter Component should render with default values 1`] = `
+<blockquote
+  className="color-text-presenter"
+/>
+`;

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextHighlightableArea Component should render with default values 1`] = `
+<div
+  className="text-highlightable-area"
+>
+  <div
+    className="backdrop"
+  >
+    <div
+      className="highlights"
+      data-testid="highlights"
+    >
+      
+    </div>
+  </div>
+  <textarea
+    data-testid="text-area"
+    onChange={[Function]}
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    value=""
+  />
+</div>
+`;
+
+exports[`TextHighlightableArea Component should render with text highlighted 1`] = `
+<div
+  className="text-highlightable-area"
+>
+  <div
+    className="backdrop"
+  >
+    <div
+      className="highlights"
+      data-testid="highlights"
+    >
+      
+      <mark
+        style={
+          Object {
+            "backgroundColor": "red",
+          }
+        }
+      >
+        Lorem
+      </mark>
+       Ipsum 
+      <mark
+        style={
+          Object {
+            "backgroundColor": "blue",
+          }
+        }
+      >
+        is simply
+      </mark>
+    </div>
+  </div>
+  <textarea
+    data-testid="text-area"
+    onChange={[Function]}
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    value="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  />
+</div>
+`;

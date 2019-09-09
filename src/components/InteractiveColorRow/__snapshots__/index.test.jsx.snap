@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InteractiveColorRow Component should render with color boxes and description text 1`] = `
+<ul
+  className="interactive-color-box-row"
+>
+  <li
+    className="item"
+    data-testid="color-box-row-0"
+    onClick={[Function]}
+  >
+    <div
+      className="color-box highlighted"
+      data-testid="color-box-red"
+      style={
+        Object {
+          "backgroundColor": "red",
+          "borderColor": "yellow",
+        }
+      }
+    />
+  </li>
+  <li
+    className="item"
+    data-testid="color-box-row-1"
+    onClick={[Function]}
+  >
+    <div
+      className="color-box unhighlighted"
+      data-testid="color-box-blue"
+      style={
+        Object {
+          "backgroundColor": "blue",
+          "borderColor": "yellow",
+        }
+      }
+    />
+  </li>
+  <li
+    className="item"
+    data-testid="color-box-row-2"
+    onClick={[Function]}
+  >
+    <div
+      className="color-box unhighlighted"
+      data-testid="color-box-green"
+      style={
+        Object {
+          "backgroundColor": "green",
+          "borderColor": "yellow",
+        }
+      }
+    />
+  </li>
+  <li>
+    This is a really bad description text... yep
+  </li>
+</ul>
+`;
+
+exports[`InteractiveColorRow Component should render with default values 1`] = `
+<ul
+  className="interactive-color-box-row"
+>
+  <li>
+    
+  </li>
+</ul>
+`;

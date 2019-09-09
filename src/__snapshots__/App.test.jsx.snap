@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should render with default values 1`] = `
+<div
+  className="app"
+>
+  <button
+    className="clear-button"
+    data-testid="clear-button"
+    onClick={[Function]}
+  >
+    Clear Selections
+  </button>
+  <ul
+    className="interactive-color-box-row"
+  >
+    <li
+      className="item"
+      data-testid="color-box-row-0"
+      onClick={[Function]}
+    >
+      <div
+        className="color-box highlighted"
+        data-testid="color-box-red"
+        style={
+          Object {
+            "backgroundColor": "red",
+            "borderColor": "green",
+          }
+        }
+      />
+    </li>
+    <li
+      className="item"
+      data-testid="color-box-row-1"
+      onClick={[Function]}
+    >
+      <div
+        className="color-box unhighlighted"
+        data-testid="color-box-green"
+        style={
+          Object {
+            "backgroundColor": "green",
+            "borderColor": "blue",
+          }
+        }
+      />
+    </li>
+    <li
+      className="item"
+      data-testid="color-box-row-2"
+      onClick={[Function]}
+    >
+      <div
+        className="color-box unhighlighted"
+        data-testid="color-box-blue"
+        style={
+          Object {
+            "backgroundColor": "blue",
+            "borderColor": "red",
+          }
+        }
+      />
+    </li>
+    <li>
+      (on the left there is the text market. If a user presses red, he is able highlight the words in the text below in red)
+    </li>
+  </ul>
+  <div
+    className="text-highlightable-area"
+  >
+    <div
+      className="backdrop"
+    >
+      <div
+        className="highlights"
+        data-testid="highlights"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.
+      </div>
+    </div>
+    <textarea
+      data-testid="text-area"
+      onChange={[Function]}
+      onClick={[Function]}
+      onTouchEnd={[Function]}
+      value="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially."
+    />
+  </div>
+  <ul
+    className="interactive-color-box-row"
+  >
+    <li
+      className="item"
+      data-testid="color-box-row-0"
+      onClick={[Function]}
+    >
+      <div
+        className="color-box highlighted"
+        data-testid="color-box-red"
+        style={
+          Object {
+            "backgroundColor": "red",
+            "borderColor": "green",
+          }
+        }
+      />
+    </li>
+    <li
+      className="item"
+      data-testid="color-box-row-1"
+      onClick={[Function]}
+    >
+      <div
+        className="color-box unhighlighted"
+        data-testid="color-box-green"
+        style={
+          Object {
+            "backgroundColor": "green",
+            "borderColor": "blue",
+          }
+        }
+      />
+    </li>
+    <li
+      className="item"
+      data-testid="color-box-row-2"
+      onClick={[Function]}
+    >
+      <div
+        className="color-box unhighlighted"
+        data-testid="color-box-blue"
+        style={
+          Object {
+            "backgroundColor": "blue",
+            "borderColor": "red",
+          }
+        }
+      />
+    </li>
+    <li>
+      (on the left there is the filter. If a user presses on red, all red text should appear in the box below)
+    </li>
+  </ul>
+  <blockquote
+    className="color-text-presenter"
+  />
+</div>
+`;
